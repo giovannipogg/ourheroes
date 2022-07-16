@@ -5,3 +5,5 @@ The Project aims at reproducing and extending the HEROES model as described by Z
 "Summarizing Long-Form Document with Rich Discourse Information".
 
 The `ourheroes` package can be installed via `pip install ourheroes`, and the documentation can be read at https://giovannipogg.github.io/ourheroes/ourheroes.html.
+
+To reproduce the experiments one needs first to run the `ourheroes.inspection.inspect_files.py` script and the `files/Inspect.ipynb` to obtain the filtered dataset, then can proceed by running `experiments.py`.
