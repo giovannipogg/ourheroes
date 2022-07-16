@@ -78,14 +78,14 @@ def main():
     # Experiments with cr 5
     digest(checkpoint_path='D:\\cr_checkpoints\\4.pth')
 
-    # Non Recursive
-    train_gs(save_path='D:\\cr_5_gs_nr', max_epochs=5)
-    eval_gs(save_path='D:\\cr_5_gs_nr', eval_path='files\\eval_cr_5_gs_nr')
+    # Recursive
+    train_gs(save_path='D:\\cr_5_gs', max_epochs=5)
+    eval_gs(save_path='D:\\cr_5_gs', eval_path='files\\eval_cr_5_gs')
     exit()
 
-    # Recursive
+    # Non Recursive
     train_gs(recursive=False, save_path='D:\\cr_5_gs', max_epochs=5)
-    eval_gs(save_path='D:\\cr_5_gs', eval_path='files\\eval_cr_5_gs')
+    eval_gs(save_path='D:\\cr_5_gs_nr', eval_path='files\\eval_cr_5_gs_nr')
 
     # Experiments with cr 10
     digest(checkpoint_path='D:\\cr_checkpoints\\9.pth')
